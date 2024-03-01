@@ -1,0 +1,75 @@
+.container-movie {
+    display: flex;
+    justify-content: center;
+    border: 3px solid #fff;
+    padding: 1rem;
+    height: auto;
+
+}
+
+
+.tagline {
+    width: 100%;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.time, .info-value {
+    display: flex;
+    gap: 2rem;
+    margin-left: 1.5rem;
+}
+
+.year-release h3 {
+    padding-bottom: 0.1rem;
+}
+.year {
+    padding-left: 1.5rem;
+}
+
+.info-value {
+    margin-top: 1rem;
+}
+
+.info-value h3 {
+    padding-bottom: 0.1rem;
+}
+
+.info-value p {
+    padding-left: 1.5rem;
+}
+
+.description {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.description h3 {
+    padding-bottom: 0.1rem;
+}
+
+.description p {
+    width: 500px;
+    font-size: 1.2rem;
+    word-spacing: 1.5px;
+    line-height: 25px;
+}
+
+.btn-voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.voltar-btn-movie {
+    width: 200px;
+    height: 75px;
+}
+
+.icone {
+    color: gold;
+    font-size: 1.2rem;
+}

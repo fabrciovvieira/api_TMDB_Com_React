@@ -1,0 +1,39 @@
+/* AJUSTE DO BUSCAR */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem auto 4rem;
+}
+
+input  {
+    width: 25rem;
+    height: 4rem;
+    border: none;
+    padding-left: 6px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+button {
+    margin-left: 1rem;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background: linear-gradient(90deg, #E50914 0%, #c42c34 100%);
+    outline: 1.5px solid transparent;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+button:hover {
+    color: #E50914;
+    background: transparent;
+    outline: 1.5px solid #c42c34;
+}
+
