@@ -18,7 +18,7 @@ export function useTopMoviesUrl() {
     useEffect(() => {
 
         const topRatedUrl = `${moviesURL}top_rated?${apiKEY}`
-
+        console.log(topRatedUrl)
         getTopRatedMovies(topRatedUrl)
     }, []);
 

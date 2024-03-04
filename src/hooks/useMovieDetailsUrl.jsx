@@ -29,7 +29,11 @@ export function useMovieDetailsUrl() {
             setError(error.message);
         }
     };
-
+    useEffect(() => {
+        const MovieUrl = `${moviesURL}${id}?${apiKEY}`
+        console.log(MovieUrl)
+        getMovie(MovieUrl);
+    }, [id]);
 
     const getCreditsMovie = async (url) => {
         try {
@@ -49,11 +53,7 @@ export function useMovieDetailsUrl() {
         getCreditsMovie(creditsUrl)
     }, [])
 
-    useEffect(() => {
-        const MovieUrl = `${moviesURL}${id}?${apiKEY}`
-        console.log(MovieUrl)
-        getMovie(MovieUrl);
-    }, [id]);
+
 
     return [
         movie,
