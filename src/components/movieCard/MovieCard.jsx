@@ -27,7 +27,7 @@ const MovieCard = ({ movie, showLink = true }) => {
       )}
 
       </div>
-      {showLink && <Link to={`/movies/${movie.id}`}>
+      {showLink && <Link to={`/api_TMDB_Com_React/movies/${movie.id}`}>
       <button className='btn-details'>Ver detalhes</button>
       </Link>}
     </div>

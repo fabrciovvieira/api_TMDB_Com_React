@@ -20,12 +20,12 @@ const NavBar = () => {
                 </div>
                 <ul>
                     <li>
-                        <Link className='menu-item' to="/">
+                        <Link className='menu-item' to="/api_TMDB_Com_React">
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link className='menu-item' to="sugestao">
+                        <Link className='menu-item' to="/api_TMDB_Com_React/sugestao">
                             Minhas redes sociais
                         </Link>
                     </li>

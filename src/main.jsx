@@ -22,10 +22,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
           <Route element={<App />}>
-          <Route path='/' element={<Home />}/>
-          <Route path='movies/:id' element={<Movie />}/>
-          <Route path='sugestao' element={<Sugestao />}/>
-          <Route path="search" element={<Search />}/>
+          <Route path='/api_TMDB_Com_React' element={<Home />}/>
+          <Route path='/api_TMDB_Com_React/movies/:id' element={<Movie />}/>
+          <Route path='/api_TMDB_Com_React/sugestao' element={<Sugestao />}/>
+          <Route path="/api_TMDB_Com_React/search" element={<Search />}/>
         </Route>
       </Routes>
     </BrowserRouter>

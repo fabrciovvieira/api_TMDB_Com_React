@@ -24,7 +24,7 @@ const SearchBar = () => {
     e.preventDefault();
 
     if(!search) return
-    navigate(`/search?q=${search}`)
+    navigate(`/api_TMDB_Com_React/search?q=${search}`)
 
   }
 

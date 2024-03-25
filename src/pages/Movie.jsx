@@ -82,7 +82,7 @@ const Movie = () => {
         </div>
       )}
         <div className="btn-voltar">
-            <Link to="/"><button className='voltar-btn-movie'>Ir para Home</button></Link>
+            <Link to="/api_TMDB_Com_React"><button className='voltar-btn-movie'>Ir para Home</button></Link>
         </div>
     </div>
   )
