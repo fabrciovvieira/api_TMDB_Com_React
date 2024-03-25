@@ -18,6 +18,8 @@ const Home = () => {
 
   const [topMovies] = useTopMoviesUrl()
 
+  {!topMovies && <div className="loading"></div>}
+
   return (
     <div>
       <SearchBar />

@@ -13,3 +13,28 @@ body {
 a {
     text-decoration: none;
 }
+
+
+/* config Loading */
+
+.loading {
+    border: 4px solid #cdcdcd;
+    border-left-color: #0000009b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 3rem;
+    top: 50%;
+    position: fixed;
+    left: 50%;
+}
+
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+}
