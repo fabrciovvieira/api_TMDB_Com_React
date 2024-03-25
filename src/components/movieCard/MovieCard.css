@@ -4,7 +4,7 @@
 }
 
 .movie-card {
-    border-radius: 0.3rem;
+    border-radius: 2rem;
     overflow: hidden;
 
 }
@@ -51,3 +51,10 @@ img {
 }
 
 
+@media (max-width: 1024px) {
+    .star,
+    .movie-card h2 {
+        margin-left: 1.2rem;
+    }
+
+}

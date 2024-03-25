@@ -15,7 +15,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 2rem; */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -27,4 +26,34 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
+}
+@media (max-width: 1024px) {
+    .container .title {
+        width: 80%;
+        margin: auto auto 1rem;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .movies-container {
+        max-width:100%;
+        justify-content: center;
+        gap: 1.7rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container .title {
+        font-size: 1.5rem;
+    }
+    .movies-container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container .title {
+        font-size: 1.1rem;
+    }
 }
